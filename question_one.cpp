@@ -6,18 +6,19 @@ multiples of 5, print "Buzz"; and for numbers that are multiples of both 3 and 5
 */
 
 #include <iostream>
+using namespace std;
 
 int main() {
 	//am using the for loop to generate the output.
     for (int num = 1; num <= 100; num++) {
         if (num % 3 == 0 && num % 5 == 0) {
-            std::cout << "FizzBuzz" << std::endl;
+            cout << "FizzBuzz" << endl;
         } else if (num % 3 == 0) {
-            std::cout << "Fizz" << std::endl;
+            cout << "Fizz" << endl;
         } else if (num % 5 == 0) {
-            std::cout << "Buzz" << std::endl;
+            cout << "Buzz" << endl;
         } else {
-            std::cout << num << std::endl;
+            cout << num << endl;
         }
     }
     return 0;
