@@ -7,15 +7,15 @@ using namespace std;
 
 int main() {
   //declare a variable called a
-    int a = 0, b = 1, c;
+    int n = 0, o = 1, p;
     //print output
-    cout << a << " " << b << " ";
+    cout << n << " " << o << " ";
     //use while loop for looping until you reach 100
-    while (a + b <= 100) {
-        c = a + b;
-        cout << c << " ";
-        a = b;
-        b = c;
+    while (n + o <= 100) {
+        p = n + o;
+        cout << p << " ";
+        n = o;
+        o = p;
     }
     
     return 0;
