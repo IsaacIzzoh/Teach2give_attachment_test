@@ -15,17 +15,15 @@ int main() {
         if (o % 3 == 0 && o % 5 == 0) {
             cout << "FizzBuzz" << endl;
         } 
-        // Check if the current number is a multiple of 3 but not 5
         else if (o % 3 == 0) {
-            cout << "Fizz" << endl; // If true, print "Fizz"
+            cout << "Fizz" << endl; 
         } 
-        // Check if the current number is a multiple of 5 but not 3
+        // am using another if statement to also check if the current number is a multiple of 5 but not 3
         else if (o % 5 == 0) {
-            cout << "Buzz" << endl; // If true, print "Buzz"
+            cout << "Buzz" << endl; 
         } 
-        // If none of the above conditions are met
         else {
-            cout << o << endl; // Print the current number
+            cout << o << endl; 
         }
     }
     return 0;
